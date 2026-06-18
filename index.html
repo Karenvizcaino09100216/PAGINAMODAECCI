@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moda ECCI 2026 - Color, Innovación y Transformación Digital. Desarrollado por Karen Vizcaíno, ADSO ECCI.">
+  <meta name="keywords" content="ADSO, diseño, color, innovación, desarrollo software, UX/UI, sostenibilidad">
+  <meta name="author" content="Karen Vizcaíno - ADSO ECCI">
+  <title>Moda ECCI 2026 — Color, Innovación y Transformación Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg site-nav" aria-label="Navegación principal">
+  <div class="container">
+    <a class="navbar-brand" href="#inicio">ADSO <span>Karen Vizcaíno</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link-custom" href="#experiencia">Experiencia</a></li>
+        <li class="nav-item"><a class="nav-link-custom" href="#evidencia">Evidencia</a></li>
+        <li class="nav-item"><a class="nav-link-custom" href="#glosario">Glosario</a></li>
+        <li class="nav-item"><a class="nav-link-custom" href="#sostenibilidad">Sostenibilidad</a></li>
+        <li class="nav-item"><a class="nav-link-custom" href="#conclusion">Conclusión</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-banner" id="inicio" aria-label="Portada principal">
+  <div class="hero-grid-lines" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <defs>
+        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+          <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(0,188,212,1)" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#grid)"/>
+    </svg>
+  </div>
+  <div class="container hero-content">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="hero-eyebrow">ADSO Karen Vizcaíno · ECCI 2026</div>
+        <h1 class="hero-title">
+          Moda <span class="accent">ECCI</span><br>2026
+        </h1>
+        <p class="hero-subtitle-en">Color, Innovación y Transformación Digital</p>
+        <p class="hero-description">
+          Una experiencia académica que integra diseño visual, teoría del color, sostenibilidad, innovación y desarrollo de software para la construcción de soluciones digitales modernas.
+        </p>
+        <p class="hero-description-en">
+          An academic experience integrating visual design, color theory, sustainability, innovation and software development to create modern digital solutions.
+        </p>
+        <blockquote class="hero-quote">
+          "El color comunica, el diseño conecta y la tecnología transforma."
+        </blockquote>
+        <p class="hero-quote-en">"Color communicates, design connects and technology transforms."</p>
+        <div class="hero-actions">
+          <a href="#experiencia" class="btn-hero-primary">
+            <i class="fas fa-rocket" aria-hidden="true"></i>
+            Explorar Proyecto / Explore Project
+          </a>
+          <a href="#evidencia" class="btn-hero-outline">
+            <i class="fas fa-video" aria-hidden="true"></i>
+            Ver Evidencia / View Evidence
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5 hero-visual">
+        <div class="hero-color-wheel" aria-label="Círculo cromático decorativo">
+          <div class="color-ring">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#FF0000"/>
+                  <stop offset="14%" style="stop-color:#FF7700"/>
+                  <stop offset="28%" style="stop-color:#FFFF00"/>
+                  <stop offset="42%" style="stop-color:#00CC00"/>
+                  <stop offset="57%" style="stop-color:#00CCCC"/>
+                  <stop offset="71%" style="stop-color:#0066FF"/>
+                  <stop offset="85%" style="stop-color:#9900CC"/>
+                  <stop offset="100%" style="stop-color:#FF0000"/>
+                </linearGradient>
+              </defs>
+              <circle cx="100" cy="100" r="92" fill="none" stroke="url(#cg1)" stroke-width="14" opacity="0.85"/>
+              <circle cx="100" cy="100" r="74" fill="none" stroke="rgba(0,188,212,0.3)" stroke-width="1"/>
+              <circle cx="100" cy="100" r="56" fill="none" stroke="rgba(0,188,212,0.15)" stroke-width="1"/>
+              <circle cx="100" cy="8" r="5" fill="#FF0000" opacity="0.9"/>
+              <circle cx="154" cy="23" r="5" fill="#FF7700" opacity="0.9"/>
+              <circle cx="192" cy="70" r="5" fill="#FFDD00" opacity="0.9"/>
+              <circle cx="192" cy="130" r="5" fill="#00CC00" opacity="0.9"/>
+              <circle cx="154" cy="177" r="5" fill="#00BCD4" opacity="0.9"/>
+              <circle cx="100" cy="192" r="5" fill="#0066FF" opacity="0.9"/>
+              <circle cx="46" cy="177" r="5" fill="#6600CC" opacity="0.9"/>
+              <circle cx="8" cy="130" r="5" fill="#CC0066" opacity="0.9"/>
+              <circle cx="8" cy="70" r="5" fill="#FF0066" opacity="0.9"/>
+              <circle cx="46" cy="23" r="5" fill="#FF4400" opacity="0.9"/>
+            </svg>
+          </div>
+          <div class="color-ring-inner">
+            <span>Color<br>&amp; Design</span>
+            <small>Pantone · ECCI</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar" aria-label="Datos del evento">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">2026</div>
+        <div class="stat-label-es">Año del Evento</div>
+        <div class="stat-label-en">Event Year</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">15+</div>
+        <div class="stat-label-es">Términos en Glosario</div>
+        <div class="stat-label-en">Glossary Terms</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">1</div>
+        <div class="stat-label-es">Fotografía del Evento</div>
+        <div class="stat-label-en">Event Photo</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">2</div>
+        <div class="stat-label-es">Idiomas del Proyecto</div>
+        <div class="stat-label-en">Project Languages</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 1 — EXPERIENCE -->
+<section id="experiencia" aria-labelledby="exp-heading">
+  <div class="container">
+    <div class="section-label">Sección 01 — Section 01</div>
+    <h2 class="section-heading" id="exp-heading">Mi Experiencia en Moda ECCI</h2>
+    <p class="section-heading-en">My Experience at Moda ECCI</p>
+    <div class="section-divider"></div>
+
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">🎨</div>
+          <h3 class="card-title-es">Teoría del Color</h3>
+          <p class="card-title-en">Color Theory</p>
+          <p class="card-text-es">Aprendí cómo los colores comunican mensajes, generan emociones y afectan la percepción visual. La teoría del color es fundamental para crear interfaces accesibles y profesionales.</p>
+          <p class="card-text-en">Understanding how colors communicate messages, generate emotions, and affect visual perception. Color theory is essential for creating accessible and professional interfaces.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">🧠</div>
+          <h3 class="card-title-es">Psicología del Color</h3>
+          <p class="card-title-en">Color Psychology</p>
+          <p class="card-text-es">Exploré cómo los colores influyen en el comportamiento del usuario y en la toma de decisiones. Cada color tiene un impacto psicológico específico en la experiencia digital.</p>
+          <p class="card-text-en">Exploring how colors influence user behavior and decision-making. Each color has a specific psychological impact on digital experience.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">🎯</div>
+          <h3 class="card-title-es">Pantone y Consistencia</h3>
+          <p class="card-title-en">Pantone & Consistency</p>
+          <p class="card-text-es">Descubrí la importancia de Pantone para mantener consistencia visual en proyectos. Los códigos de color estandarizados son vitales en diseño profesional y desarrollo.</p>
+          <p class="card-text-en">Discovering the importance of Pantone for maintaining visual consistency. Standardized color codes are vital in professional design and development.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">🔤</div>
+          <h3 class="card-title-es">Semiología Visual</h3>
+          <p class="card-title-en">Visual Semiology</p>
+          <p class="card-text-es">Entendí cómo los símbolos, formas y composiciones transmiten significado. La semiología visual es el lenguaje silencioso que comunica sin palabras.</p>
+          <p class="card-text-en">Understanding how symbols, shapes, and compositions transmit meaning. Visual semiology is the silent language that communicates without words.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">✨</div>
+          <h3 class="card-title-es">UX/UI Design</h3>
+          <p class="card-title-en">UX/UI Design Principles</p>
+          <p class="card-text-es">Aprendí que el diseño visual y la funcionalidad son inseparables. Un buen UX/UI combina estética con usabilidad para crear experiencias memorables.</p>
+          <p class="card-text-en">Learning that visual design and functionality are inseparable. Good UX/UI combines aesthetics with usability to create memorable experiences.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 fade-up">
+        <div class="experience-card">
+          <div class="card-icon">🌍</div>
+          <h3 class="card-title-es">Sostenibilidad Digital</h3>
+          <p class="card-title-en">Digital Sustainability</p>
+          <p class="card-text-es">Reconocí que el desarrollo sostenible es una responsabilidad. Desde la economía circular hasta la eficiencia tecnológica, cada decisión tiene impacto.</p>
+          <p class="card-text-en">Recognizing that sustainable development is a responsibility. From circular economy to technological efficiency, every decision has impact.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="evidencia" class="audiovisual-section" aria-labelledby="audiovisual-heading">
+  <div class="container">
+    <div class="section-label">Sección 02 — Section 02</div>
+    <h2 class="section-heading" id="audiovisual-heading">Evidencia Audiovisual</h2>
+    <p class="section-heading-en">Audiovisual Evidence</p>
+    <div class="section-divider"></div>
+
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="video-container fade-up">
+          <iframe class="responsive-iframe" 
+                  src="https://www.youtube.com/embed/WtxpAoq2-HY" 
+                  title="Moda ECCI 2026 - Evidencia Audiovisual"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen
+                  loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-4 fade-up">
+        <div class="video-description">
+          <h3 class="video-title">Moda ECCI 2026</h3>
+          <p class="video-title-en">Moda ECCI 2026 Documentary</p>
+          
+          <div class="lang-badge lang-es mb-3">🇨🇴 Español</div>
+          <p class="video-text-es">
+            Este video documenta la experiencia académica de Moda ECCI 2026, un evento de transformación digital que integró teoría del color, diseño visual, innovación tecnológica y sostenibilidad. Un registro visual de cómo la creatividad y la tecnología convergen en el desarrollo profesional ADSO.
+          </p>
+
+          <div class="lang-badge lang-en mb-3">🇺🇸 English</div>
+          <p class="video-text-en">
+            This video documents the academic experience of Moda ECCI 2026, a digital transformation event that integrated color theory, visual design, technological innovation and sustainability. A visual record of how creativity and technology converge in professional ADSO development.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photo-section fade-up">
+  <h3 class="photo-section-title">Registro Fotográfico</h3>
+  <p class="photo-section-title-en">Photographic Record</p>
+
+  <figure class="photo-frame">
+    <img src="img/sara-viloria-karen-vizcaino-moda-ecci.png" 
+         alt="Sara Viloria y Karen Vizcaíno en Moda ECCI 2026" 
+         class="img-fluid rounded shadow">
+    <figcaption>
+      Fotografía: Sara Viloria y Karen Vizcaíno — Moda ECCI 2026
+    </figcaption>
+  </figure>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3 — GLOSSARY -->
+<section id="glosario" aria-labelledby="glossary-heading">
+  <div class="container">
+    <div class="section-label">Sección 03 — Section 03</div>
+    <h2 class="section-heading" id="glossary-heading">Glosario Técnico</h2>
+    <p class="section-heading-en">Technical Glossary — Bilingual Reference</p>
+    <div class="section-divider"></div>
+
+    <div class="glossary-search-wrap">
+      <i class="fas fa-search glossary-search-icon" aria-hidden="true"></i>
+      <input type="search" class="glossary-search" id="glossaryInput" placeholder="Buscar término / Search term..." aria-label="Buscar en el glosario">
+    </div>
+    <p id="glossary-count"></p>
+
+    <div class="glossary-table-wrap">
+      <table class="glossary-table" id="glossaryTable" aria-label="Glosario técnico bilingüe">
+        <thead>
+          <tr>
+            <th scope="col">Term / Término</th>
+            <th scope="col">Definition (EN) / Definición (ES)</th>
+            <th scope="col">Category</th>
+          </tr>
+        </thead>
+        <tbody id="glossaryBody">
+          <tr>
+            <td data-label="Término"><strong>Teoría del Color</strong> / Color Theory</td>
+            <td data-label="Definición">Principios científicos sobre cómo los colores interactúan, combinan y comunican. / Scientific principles of how colors interact, combine, and communicate.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Psicología del Color</strong> / Color Psychology</td>
+            <td data-label="Definición">Estudio del impacto emocional y comportamental de los colores. / Study of the emotional and behavioral impact of colors.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Pantone</strong> / Pantone System</td>
+            <td data-label="Definición">Sistema de estandarización de colores utilizado en diseño e impresión. / Color standardization system used in design and printing.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Contraste</strong> / Contrast</td>
+            <td data-label="Definición">Diferencia visual entre elementos que mejora la legibilidad y accesibilidad. / Visual difference between elements that improves readability and accessibility.</td>
+            <td data-label="Categoría">Accessibility</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Semiología Visual</strong> / Visual Semiology</td>
+            <td data-label="Definición">Disciplina que estudia cómo los símbolos comunican significado. / Discipline studying how symbols communicate meaning.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>UX/UI</strong> / User Experience & User Interface</td>
+            <td data-label="Definición">Diseño enfocado en la experiencia del usuario y la interfaz de interacción. / Design focused on user experience and interaction interface.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Accesibilidad</strong> / Accessibility</td>
+            <td data-label="Definición">Capacidad de un producto digital ser usado por personas con diversas capacidades. / Ability of a digital product to be used by people with diverse abilities.</td>
+            <td data-label="Categoría">Accessibility</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Economía Circular</strong> / Circular Economy</td>
+            <td data-label="Definición">Modelo económico que minimiza desperdicios mediante reutilización y reciclaje. / Economic model minimizing waste through reuse and recycling.</td>
+            <td data-label="Categoría">Sustainability</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Sostenibilidad Digital</strong> / Digital Sustainability</td>
+            <td data-label="Definición">Práctica de minimizar el impacto ambiental en el desarrollo tecnológico. / Practice of minimizing environmental impact in technological development.</td>
+            <td data-label="Categoría">Sustainability</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Innovación Tecnológica</strong> / Technological Innovation</td>
+            <td data-label="Definición">Creación de nuevas soluciones tecnológicas que resuelven problemas reales. / Creation of new technological solutions that solve real problems.</td>
+            <td data-label="Categoría">Technology</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>ADSO</strong> / Software Development Analyst</td>
+            <td data-label="Definición">Programa de formación tecnológica enfocado en análisis y desarrollo de software. / Technical training program focused on software analysis and development.</td>
+            <td data-label="Categoría">Education</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Diseño Responsivo</strong> / Responsive Design</td>
+            <td data-label="Definición">Enfoque que adapta diseños para funcionar en diversos tamaños de pantalla. / Approach that adapts designs to work on various screen sizes.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Interfaz de Usuario</strong> / User Interface</td>
+            <td data-label="Definición">Medio visual e interactivo a través del cual el usuario interactúa con un sistema. / Visual and interactive medium through which the user interacts with a system.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Experiencia de Usuario</strong> / User Experience</td>
+            <td data-label="Definición">Conjunto de percepciones y emociones de un usuario al interactuar con un producto. / Set of perceptions and emotions a user has when interacting with a product.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+          <tr>
+            <td data-label="Término"><strong>Paleta de Colores</strong> / Color Palette</td>
+            <td data-label="Definición">Conjunto seleccionado de colores que define la identidad visual de un proyecto. / Selected set of colors that defines the visual identity of a project.</td>
+            <td data-label="Categoría">Design</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4 — SUSTAINABILITY -->
+<section id="sostenibilidad" aria-labelledby="sustainability-heading">
+  <div class="container">
+    <div class="section-label">Sección 04 — Section 04</div>
+    <h2 class="section-heading" id="sustainability-heading">Sostenibilidad e Innovación</h2>
+    <p class="section-heading-en">Sustainability & Innovation</p>
+    <div class="section-divider"></div>
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="sustainability-content fade-up">
+          <div class="lang-badge lang-es mb-3">🇨🇴 Español</div>
+          <p class="sustainability-text">
+            La sostenibilidad no es un concepto ajeno al desarrollo de software. Como desarrolladores ADSO, tenemos la responsabilidad de crear soluciones que sean eficientes, durables y respetuosas con el medio ambiente. La economía circular aplicada a la tecnología significa reutilizar código, optimizar recursos y diseñar sistemas que minimicen el desperdicio digital.
+          </p>
+          <p class="sustainability-text">
+            Moda ECCI 2026 demostró que la innovación tecnológica debe ir acompañada de conciencia ambiental. Desde interfaces accesibles hasta arquitecturas sostenibles, cada decisión de diseño y desarrollo impacta el futuro. La formación ADSO nos prepara para ser profesionales responsables que integren sostenibilidad en cada proyecto.
+          </p>
+
+          <div class="lang-badge lang-en mb-3">🇺🇸 English</div>
+          <p class="sustainability-text">
+            Sustainability is not a concept foreign to software development. As ADSO developers, we have the responsibility to create solutions that are efficient, durable, and environmentally respectful. Circular economy applied to technology means reusing code, optimizing resources, and designing systems that minimize digital waste.
+          </p>
+          <p class="sustainability-text">
+            Moda ECCI 2026 demonstrated that technological innovation must be accompanied by environmental awareness. From accessible interfaces to sustainable architectures, every design and development decision impacts the future. ADSO training prepares us to be responsible professionals who integrate sustainability in every project.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0" aria-hidden="true">
+        <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="130" cy="130" r="120" fill="none" stroke="rgba(0,188,212,0.12)" stroke-width="1"/>
+          <circle cx="130" cy="130" r="90" fill="none" stroke="rgba(0,188,212,0.18)" stroke-width="1"/>
+          <circle cx="130" cy="130" r="60" fill="none" stroke="rgba(0,188,212,0.25)" stroke-width="1.5"/>
+          <circle cx="130" cy="130" r="30" fill="rgba(0,188,212,0.1)" stroke="rgba(0,188,212,0.4)" stroke-width="2"/>
+          <circle cx="130" cy="10" r="8" fill="var(--aqua,#00BCD4)" opacity="0.9"/>
+          <circle cx="240" cy="90" r="6" fill="#1B4FBF" opacity="0.8"/>
+          <circle cx="210" cy="220" r="7" fill="rgba(0,188,212,0.7)"/>
+          <circle cx="50" cy="220" r="6" fill="#1B4FBF" opacity="0.6"/>
+          <circle cx="20" cy="90" r="7" fill="rgba(0,188,212,0.5)"/>
+          <line x1="130" y1="10" x2="240" y2="90" stroke="rgba(0,188,212,0.3)" stroke-width="1"/>
+          <line x1="240" y1="90" x2="210" y2="220" stroke="rgba(0,188,212,0.2)" stroke-width="1"/>
+          <line x1="210" y1="220" x2="50" y2="220" stroke="rgba(0,188,212,0.2)" stroke-width="1"/>
+          <line x1="50" y1="220" x2="20" y2="90" stroke="rgba(0,188,212,0.2)" stroke-width="1"/>
+          <line x1="20" y1="90" x2="130" y2="10" stroke="rgba(0,188,212,0.2)" stroke-width="1"/>
+          <text x="130" y="135" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="800" font-size="13" fill="rgba(0,188,212,0.9)">ECCI</text>
+          <text x="130" y="152" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="400" font-size="9" fill="rgba(255,255,255,0.4)">2026</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5 — CONCLUSION -->
+<section id="conclusion" class="conclusion-section" aria-labelledby="conclusion-heading">
+  <div class="container">
+    <div class="section-label">Sección 05 — Section 05</div>
+    <h2 class="section-heading" id="conclusion-heading">Conclusión Final</h2>
+    <p class="section-heading-en">Final Conclusion</p>
+    <div class="section-divider"></div>
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="lang-badge lang-es mb-3">🇨🇴 Español</div>
+        
+        <p class="conclusion-text-es">
+          Moda ECCI 2026 fue una experiencia transformadora que trascendió los límites tradicionales entre diseño y tecnología. Como estudiante ADSO, descubrí que la creatividad no es exclusiva de las disciplinas artísticas, sino el motor esencial que impulsa la innovación en el desarrollo de software, la construcción de experiencias de usuario y el diseño de soluciones digitales con impacto real y medible.
+        </p>
+
+        <p class="conclusion-text-es">
+          La teoría del color que aprendimos va más allá de la estética. Comprendí que los colores son herramientas de comunicación visual que generan respuestas conscientes, subconscientes e inconscientes en el usuario. Un contraste inadecuado reduce la legibilidad y excluye a personas con discapacidades visuales; un contraste AAA o AA, en cambio, garantiza accesibilidad real. La psicología del color determina cómo los usuarios perciben, confían y actúan dentro de una interfaz digital.
+        </p>
+
+        <p class="conclusion-text-es">
+          Pantone representa algo crucial: la consistencia visual. Los códigos de color estandarizados son la diferencia entre un proyecto amateur y uno profesional. Como desarrolladora ADSO, integrar sistemas Pantone en mis proyectos significa garantizar que cada componente visual comunique la identidad y los valores del proyecto de manera coherente, sin importar dónde se implemente.
+        </p>
+
+        <p class="conclusion-text-es">
+          La semiología visual me enseñó que los símbolos, formas y composiciones transmiten significado sin necesidad de palabras. Un icono bien diseñado, una disposición estratégica de elementos, o la selección cuidadosa de tipografía comunican mensajes poderosos. Esta es la base del UX/UI: cada pixel debe servir a un propósito comunicativo. El diseño visual no decora la funcionalidad, la define.
+        </p>
+
+        <p class="conclusion-text-es">
+          La sostenibilidad y la economía circular no son temas alejados de la innovación tecnológica. Aprendí que un desarrollador responsable considera el impacto ambiental de sus decisiones: código optimizado que consume menos recursos, algoritmos eficientes, arquitecturas que minimizan el desperdicio digital. La innovación sostenible es la innovación que perdura.
+        </p>
+
+        <div class="conclusion-highlight">
+          <p>"La integración de teoría del color, semiología visual, UX/UI, sostenibilidad y tecnología no es una combinación ocasional — es el fundamento sobre el cual un profesional ADSO construye soluciones que el mundo necesita hoy. Cada línea de código, cada elección de color, cada componente de diseño es un acto de responsabilidad."</p>
+          <small>"The integration of color theory, visual semiology, UX/UI, sustainability and technology is not an occasional combination — it is the foundation upon which an ADSO professional builds solutions the world needs today. Every line of code, every color choice, every design component is an act of responsibility."</small>
+        </div>
+
+        <p class="conclusion-text-es">
+          La formación ADSO me preparó para ser más que una desarrolladora de software. Me preparó para ser una creadora de experiencias digitales que comunican, que incluyen, que respetan el medio ambiente y que generan impacto. Moda ECCI 2026 fue la confirmación de que el futuro del desarrollo tecnológico pertenece a profesionales que integren diseño, creatividad, conocimiento técnico y responsabilidad social.
+        </p>
+
+        <div class="lang-badge lang-en mb-3">🇺🇸 English</div>
+
+        <p class="conclusion-text-en">
+          Moda ECCI 2026 was a transformative experience that transcended the traditional boundaries between design and technology. As an ADSO student, I discovered that creativity is not exclusive to artistic disciplines, but the essential engine that drives innovation in software development, user experience construction, and the design of digital solutions with real and measurable impact.
+        </p>
+
+        <p class="conclusion-text-en">
+          The color theory we learned goes far beyond aesthetics. I understood that colors are visual communication tools that generate conscious, subconscious, and unconscious responses in the user. Inadequate contrast reduces readability and excludes people with visual disabilities; AAA or AA contrast, on the other hand, guarantees true accessibility. Color psychology determines how users perceive, trust, and act within a digital interface.
+        </p>
+
+        <p class="conclusion-text-en">
+          Pantone represents something crucial: visual consistency. Standardized color codes are the difference between an amateur project and a professional one. As an ADSO developer, integrating Pantone systems into my projects means ensuring that every visual component communicates the project's identity and values coherently, regardless of where it is implemented.
+        </p>
+
+        <p class="conclusion-text-en">
+          Visual semiology taught me that symbols, shapes, and compositions transmit meaning without needing words. A well-designed icon, a strategic arrangement of elements, or the careful selection of typography communicate powerful messages. This is the foundation of UX/UI: every pixel must serve a communicative purpose. Visual design does not decorate functionality, it defines it.
+        </p>
+
+        <p class="conclusion-text-en">
+          Sustainability and circular economy are not topics removed from technological innovation. I learned that a responsible developer considers the environmental impact of their decisions: optimized code that consumes fewer resources, efficient algorithms, architectures that minimize digital waste. Sustainable innovation is innovation that endures.
+        </p>
+
+        <p class="conclusion-text-en">
+          ADSO training prepared me to be more than a software developer. It prepared me to be a creator of digital experiences that communicate, that include, that respect the environment, and that generate impact. Moda ECCI 2026 was the confirmation that the future of technological development belongs to professionals who integrate design, creativity, technical knowledge, and social responsibility.
+        </p>
+
+        <div class="mt-4">
+          <div class="author-chip">
+            <div class="author-avatar">KV</div>
+            <div>
+              <div class="author-name">Karen Vizcaíno · ADSO ECCI</div>
+              <div class="author-role">2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <div class="footer-brand">ADSO <span>Karen Vizcaíno</span></div>
+        <p class="footer-meta">Moda ECCI 2026 · Color, Innovación y Transformación Digital<br>Academy: ECCI · Program: Análisis y Desarrollo de Software</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <div class="d-flex justify-content-md-end gap-3 flex-wrap">
+          <a href="#inicio" class="footer-link">Inicio / Home</a>
+          <a href="#experiencia" class="footer-link">Experiencia</a>
+          <a href="#evidencia" class="footer-link">Evidencia</a>
+          <a href="#glosario" class="footer-link">Glosario</a>
+          <a href="#conclusion" class="footer-link">Conclusión</a>
+        </div>
+        <p class="footer-copyright">© 2026 ECCI · Análisis y Desarrollo de Software · Karen Vizcaíno</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
